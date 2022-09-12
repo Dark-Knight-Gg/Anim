@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="Đăng nhập hệ thống"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:id="@+id/m1_txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Username"
+        android:textSize="22sp"
+        android:layout_below="@id/m1_txtLogin"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/m1_etxtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Password"
+        android:textSize="22sp"
+        android:layout_below="@id/m1_etxtUsername"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/m1_etxtPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:text="Lưu đăng nhập"
+        android:textSize="20sp"
+        android:layout_below="@id/m1_etxtPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/m1_CheckBoxLogin"
+        android:textColor="#4A4848"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:id="@+id/m1_btnLogin"
+        android:layout_below="@id/m1_CheckBoxLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
